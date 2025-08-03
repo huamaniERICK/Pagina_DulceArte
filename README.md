@@ -15,7 +15,7 @@ Requerimientos Funcionales
 Requerimientos No Funcionales
 | ID | Requisito | Checklist |
 |--------|--------------|---------------|
-| RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | falta |
+| RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | finalizado |
 | RNF-002 | Uso de CSS Flexbox o Grid para el layout. | finalizado |
 | RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | finalizado |
 | RNF-004 | Código bien indentado y comentado (opcional). | finalizado |
