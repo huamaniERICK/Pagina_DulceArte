@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPRESA dulce arte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="Encabezado">
+        <section class="titulogeneral">
+            <img class="imagenlogo"  src="./public/imagen_logo.jpg" alt="logo de la reposteria">
+            <h1 class="icono">Dulce Arte</h1>
+        </section>
+
+        <nav class="navegador">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contactos">Contacto</a>
+        </nav>
+    </header>
+    <section id="inicio"  class="inicio">
+        <div class="descripcion">
+            <h2 class="subtitulo">Endulzamos tus Momentos Especiales</h2>
+            <p class="parrafo">Repostería artesanal hecha con amor y los mejores ingredientes.
+            Especializados en tortas personalizadas, cupcakes gourmet y postres
+            únicos para cada ocasión especial.</p>
+            <div class="buttons">
+                <a href="#contactos"  class="buton_link1">Hacer mi Pedido</a>
+                <a href="#servicios" class="buton_link2">Ver Catalogo</a>
+            </div>
+        </div>
+        <div class="imagenes">
+            <figure class="imagen1"></figure>
+            <figure class="imagen2"></figure>
+            <figure class="imagen3"></figure>
+        </div>
+    </section>
+    <section id="servicios" class="servicios">
+        <h2 class="seccion-titulo">Nuestras Especialidades</h2>
+        <div class="contenedor-card">
+            <article class="card1">
+                <figure class="logo-tortas"></figure>
+                <h3 class="servicio1">Tortas Personalizadas</h3>
+                <p>Diseños únicos para cumpleaños, bodas y eventos
+                 especiales. Desde tortas temáticas hasta elegantes Wedding Cakes.</p>
+                 <p>Sabores: Chocolate, Vainilla, Red Velvet, Tres Leches, Cheesecake</p>
+            </article>
+
+            <article class="card2">
+                <figure class="logo-cupcakes"></figure>
+                <h3 class="servicio2">Cupcakes Gourmet</h3>
+                <p>Sabores exclusivos y decoraciones artísticas. Perfectos 
+                para fiestas, oficinas y obsequios especiales.</p>
+                <p>Mini obras de arte comestibles con frosting artesanal</p>
+            </article>
+        </div>
+
+        <div class="contenedor-card2">
+            <article class="card3">
+                <figure class="logo-postres"></figure>
+                <h3 class="servicio3">Postres para Eventos</h3>
+                <p>Mesas dulces completas y catering de postres. Macarons, cake pops, cookies decoradas y mucho más.</p>
+                <p>Diseño completo de mesa dulce según tu temática</p>
+            </article>
+        </div>
+    </section>
+    <section id="contactos" class="contactos">
+        <h2 class="seccion-contactos">Haz tu Pedido</h2>
+        <div class="contenedor-contactos">
+            <article class="datos-empresariales">
+                <h3>🏪Informacion de Contacto</h3>
+                <ul>
+                    <li><strong>Direccion:</strong>Jr.cuzco 456,puquio</li>
+                    <li><strong>WhatsApp:</strong>+51993026471-DulceArte</li>
+                    <li><strong>Email:</strong>pedidos@dulcearte.com</li>
+                    <li><strong>Horarios:</strong>Lunes a Sábado 9am - 7pm</li>
+                </ul>
+                <h3>🌟¿Por que Elegirnos?</h3>
+                <ul>
+                    <li>Ingredientes 100% naturales y frescos</li>
+                    <li>Diseños personalizados y unicos</li>
+                    <li>Entrega puntual organizada</li>
+                    <li>Mas de 8 años de experiencia</li>
+                    <li>Servicio de delivery disponible</li>
+                </ul>
+                <h3>⏰Tiempos de entrega</h3>
+                <ul>
+                    <li><strong>Cupcakes:</strong>2-3 dias</li>
+                    <li><strong>Tortas Simples:</strong>3-5 dias</li>
+                    <li><strong>Tortas Personalizadas:</strong>7-10 dias</li>
+                    <li><strong>Eventos grandes:</strong>15 dias</li>
+                </ul>
+            </article>
+            <div class="formulario">
+                <form action="" method="post">
+                    <div class="datos">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre_completo" placeholder="Escribe tu nombre completo aquí">
+                    </div>
+                    <div class="datos">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Añade tu email">
+                    </div>
+                    <div class="datos">
+                        <label for="telefono/whatsapp">Telefono/Whatsapp</label>
+                        <input type="numero" id="telefono" name="telefono/WhatsApp" placeholder="Añade tu numero celular">
+                    </div>
+                    <div class="datos">
+                        <label for="servicio">Tipo de Servicio</label>
+                        <select name="tipo_servicio" id="servicio">
+                            <option value="">Selecciona un Servicio</option>
+                            <option value="cupcakes_gourmet">Cupcakes Gourmet</option>
+                            <option value="tortas_personalizadas">Tortas Personalidades</option>
+                            <option value="bocaditos">Postres para Eventos</option>
+                            <option value="otros_postres">Otros Postres</option>
+                        </select>
+
+                    </div>
+                    <div class="datos">
+                        <label for="fecha-evento">Fecha del Evento</label>
+                        <input type="date" id="fecha-evento" name="fecha-evento" placeholder="dd/mm/aa">
+                    </div>
+                    <div class="datos">
+                        <label for="mensaje">Describe tu Pedido</label>
+                        <textarea name="descripcion" id="mensaje" placeholder="Describe las caracteristicas de tu producto"></textarea>
+                    </div>
+                    <div class="botton">
+                        <a href="">Solicitar Pedido</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="pie-pagina">
+        <div class="contenedor-informatico">
+            <article class="contenedores">
+                <h3>Dulce Arte</h3>
+                <p>Creamos momentos dulces e inolvidables con nuestras 
+                creaciones artesanales.
+                Cada postre es una obra de arte 
+                hecha con amor y dedicación.</p>
+            </article>
+            <article class="contenedores">
+                <h3>Siguenos</h3>
+                <div class="redes-sociales">
+                    <p>
+                        <a href="https://web.whatsapp.com/"><img src="./public/logo-whatsapp.png" alt="logo de whatsapp">+51993026471-DulceArte</a> 
+                    </p>
+                    <p>
+                        <a href="https://mail.google.com/"><img src="./public/logo-gmail.png" alt="logo de correo electronico">@empresadulcearte.com</a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com"><img src="./public/logo-instagram.png" alt="logo de instagram">@empresadulcearte</a>
+                    </p>
+                    <p>
+                        <a href="https://www.pinterest.com"><img src="./public/logo-pinterest.png" alt="logo de pinteres">@DulceArteReposteria</a>
+                    </p>
+                </div>
+            </article>
+            <article class="contenedores">
+                <h3>Contacto Rapido</h3>
+                <p>📞 +51 999-DULCE</p>
+                <p>📧 pedidos@dulcearte.com</p>
+                <p>🏪 Jr.cuzco 456,puquio</p>
+                <p>🕒 Lun-Sáb: 9am - 7pm</p>
+            </article>
+        </div>
+        <hr class="linea">
+        <div class="copyrigth">
+            <p>&copy;Erick Huamani Ccahuay-Empresa-2024 Dulce Arte - Repostería Artesanal.
+            Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
